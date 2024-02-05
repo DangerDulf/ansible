@@ -1,5 +1,5 @@
 - hosts:
-    - localhost
+    - all
   vars:
     source_key: './.ssh/id_ed25519'
     home_dir: "{{ lookup('env', 'HOME') }}"
